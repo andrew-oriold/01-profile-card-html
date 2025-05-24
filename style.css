@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(135deg, #e9e5d6 0%, #b7c9a8 100%); /* Sets a diagonal gradient background for visual appeal */
+  color: #3e2c23; /* Sets the default text color for the page */
+  font-family: 'Segoe UI', 'Arial', sans-serif; /* Uses a clean, modern sans-serif font stack */
+  min-height: 100vh; /* Ensures the body takes at least the full viewport height */
+  margin: 0; /* Removes default browser margin */
+  display: flex; /* Enables flexbox layout for body content */
+  align-items: flex-start; /* Aligns children (profile card) to the top of the page */
+  justify-content: center; /* Centers the profile card horizontally */
+  padding-top: 2.5rem; /* Adds space above the profile card for better visual separation */
+}
+.profile-card {
+  background: #f5f3e7; /* Sets a light background color for the card */
+  border-radius: 20px; /* Rounds the corners of the card for a softer look */
+  box-shadow: 0 8px 32px 0 rgba(60, 60, 60, 0.18); /* Adds a subtle shadow for depth */
+  padding: 2.5rem 2.5rem 2rem 2.5rem; /* Adds internal spacing: top, right, bottom, left */
+  max-width: 500px; /* Restricts the card's width for readability and aesthetics */
+  text-align: center; /* Centers text and inline elements inside the card */
+  border: 2px solid #8d7955; /* Adds a solid border to define the card's edges */
+}
+h1 {
+  margin-top: 0; /* Removes default top margin for tighter spacing */
+  color: #3b6c3b; /* Sets a distinct color for the main heading */
+  font-size: 2.2rem; /* Increases heading size for emphasis */
+  letter-spacing: 1px; /* Slightly spaces out letters for style */
+}
+h2 {
+  color: #8d7955; /* Uses a muted brown for the subheading */
+  margin-bottom: 1rem; /* Adds space below the subheading */
+  font-weight: 500; /* Makes the subheading semi-bold */
+  font-size: 1.3rem; /* Sets a moderate size for the subheading */
+}
+p {
+  color: #4e3d2c; /* Sets a readable, dark brown color for paragraph text */
+  font-size: 1.08rem; /* Slightly increases paragraph font size for readability */
+  margin-bottom: 0; /* Removes default bottom margin for tighter layout */
+  line-height: 1.6; /* Increases line spacing for better text legibility */
+}
+.websites-section {
+  margin-top: 2rem; /* Adds space above the websites section */
+}
+
+.websites-list {
+  list-style: none; /* Removes default list bullets */
+  padding: 0;       /* Removes default list padding */
+  margin: 0;
+}
+
+.websites-list li {
+  margin-bottom: 0.7rem; /* Adds space between website links */
+}
+
+.websites-list li:last-child {
+  margin-bottom: 0; /* Removes margin from last item */
+}
+
+.websites-list a {
+  color: #3b6c3b; /* Matches the theme color for links */
+  text-decoration: underline; /* Underlines the links for clarity */
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.websites-list a:hover,
+.websites-list a:focus {
+  color: #2a4d2a; /* Darker shade on hover/focus for accessibility */
+}
